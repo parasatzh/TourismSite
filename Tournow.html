@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tour Benefits</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\Laura\Desktop\фронт\style.css">
+        <link rel="icon" href="https://www.freeiconspng.com/thumbs/travel-icon/--global-globe-plane-travel-worldwide-icon--icon-search-engine-1.png"type="image/x-icon">
+  <style>
+    body {
+        background-color:#EAF2F8;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .siteblock{
+        background-color:#EAF2F8;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+       background-color:#333;
+        color: var(-);
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      nav ul li {
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        color:  #fff;;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      nav ul li a:hover {
+        background-color: #fff;
+        color: var(beige);
+        transition: all 0.2s ease-in-out;
+      }
+
+      main {
+        background-color: white;
+        margin: 0;
+        padding: 20px;
+      }
+
+      main section {
+        margin-bottom: 40px;
+      }
+
+      main section h2 {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      main section ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      main section ul li {
+        display: inline-block;
+        width: 30%;
+        margin: 20px 0;
+        background-color: var(#fff);
+        color: var(#fff);
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+
+      main section ul li:hover {
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out;
+      }
+
+      main section ul li img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      section ul li img:hover {
+        transform: scale(1.2); 
+        animation: pulse 1s infinite;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /
+      }
+      
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7); 
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        pointer-events: none; 
+      }
+      
+      section ul li:hover .overlay {
+        opacity: 1; 
+      }
+      
+      section ul li .overlay-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-align: center;
+      }
+      
+      section ul li h3,
+      section ul li p {
+        margin: 0;
+      }
+  </style>
+  </head>
+  <body>
+    <header>
+        <h1>Tour Benefits</h1>
+            <nav>
+              <ul>
+                <li><a href="C:\Users\Parasat\OneDrive\фронт\index.html">Home</a></li>
+                <li><a href="C:\Users\Laura\Desktop\фронт\Tournow.html">About us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="C:\Users\Parasat\OneDrive\фронт\Season-Based.html">Tour</a></li>
+              </ul>
+            </nav>
+    </header>
+  </body>
+  <main>
+    <section>
+      <h2>Something about us</h2>
+      <ul>
+        <li>
+          <img src="https://img.traveltriangle.com/attachments/pictures/865851/original/Mauritius_beach.jpg?tr=w-583,h-406"alt="First Benefit">
+          <h3>First Benefit</h3>
+          <p>We help people <strong>do not worry</strong> about anything during their holidays.Our goal is to provide our clients with peace of mind and a stress-free vacation. We understand that planning a trip can be overwhelming, and that's why we take care of every detail for you. </p>
+        </li>
+        <li>
+          <img src="https://www.holidify.com/images/bgImages/PARIS.jpg" alt="The best places">
+          <h3>Second Benefit</h3>
+          <p>We find for our clients <strong>the best</strong> holiday destinations around the world.Our team of travel experts carefully researches and selects the most luxurious and breathtaking accommodations, the most scenic and exciting tours and activities, and the best travel deals available to create a seamless and unforgettable vacation experience for you.</p>
+        </li>
+        <li>
+          <img src="https://img.onmanorama.com/content/dam/mm/en/travel/outside-kerala/images/2021/4/7/budget-trip.jpg"alt="Third Benefit">
+          <h3>Third Benefit</h3>
+          <p>Our travel agents will help you <strong>save money</strong> on the train before you get access to maximum savings, promotions and packages. In addition, the travel agency has access to more hotel, flight and tour options than you can find on your own, which can also result in better prices.</p>
+        </li>
+      </ul>
+    </section>
+  </body>
+  </html>
